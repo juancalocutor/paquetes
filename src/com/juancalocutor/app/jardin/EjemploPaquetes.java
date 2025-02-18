@@ -1,4 +1,4 @@
-package com.juancalocutor.app;
+package com.juancalocutor.app.jardin;
 
 import com.juancalocutor.app.hogar.*;
 
@@ -14,6 +14,8 @@ public class EjemploPaquetes {
         Gato1.detallesGato();
         System.out.println();
         persona1.detallesPersona();
+        String jugar = perro1.jugando(persona1);
+        System.out.println("Jugando " + jugar);
         System.out.println();
         perro1.detallesPerro();
         System.out.println();

@@ -1,4 +1,6 @@
-package com.juancalocutor.app;
+package com.juancalocutor.app.jardin;
+
+import com.juancalocutor.app.hogar.Persona;
 
 public class Perro {
 
@@ -15,5 +17,12 @@ public class Perro {
                 "\nRaza del perro: " + razaPerro +
                 "\nEdad del perro: " + edadPerro);
     }
+
+    String jugando(Persona persona) {
+        return persona.lanzar();
+    }
+
+
+
 // **********************
 }

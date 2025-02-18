@@ -16,5 +16,9 @@ public class Persona {
                 "\nEdad: " + edadPersona);
     }
 
+    public String lanzar(){
+        return "Lanzando la pelota al perro";
+    }
+
 // ***************************
 }

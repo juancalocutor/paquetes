@@ -16,5 +16,9 @@ public class Gato {
                 "\nEdad del gato: " + edadGato);
     }
 
-// **********************************    
+    public String jugar1(Persona persona) {
+        return persona.lanzar1();
+    }
+
+    // **********************************
 }

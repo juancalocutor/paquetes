@@ -16,9 +16,17 @@ public class Persona {
                 "\nEdad: " + edadPersona);
     }
 
-    public String lanzar(){
+    public String lanzar() {
         return "Lanzando la pelota al perro";
     }
 
-// ***************************
+    public String lanzar1() {
+        return "Jugando con la cuerda con el gato";
+    }
+
+    public static String Saludar() {
+        return "Hola, que tal?";
+    }
+
+    // ***************************
 }

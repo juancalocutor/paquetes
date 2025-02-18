@@ -22,7 +22,5 @@ public class Perro {
         return persona.lanzar();
     }
 
-
-
-// **********************
+    // **********************
 }
